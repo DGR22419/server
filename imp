@@ -1,0 +1,3 @@
+ALLOWED_HOSTS = ["*"]
+
+CSRF_TRUSTED_ORIGINS = ['https://w9am50djcmb9.share.zrok.io']

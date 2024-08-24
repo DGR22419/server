@@ -51,9 +51,10 @@
             </div>
             <ul class="sidebar-menu">
                 <li><a href="#"><i class="fas fa-home"></i><span>Dashboard</span></a></li>
-                <!-- <li><a href="#" onclick="createQuiz()"><i class="fas fa-plus"></i><span>Create a Quiz</span></a></li> -->
+                <li><a href="#" onclick="createQuiz()"><i class="fas fa-plus"></i><span>Create a Quiz</span></a></li>
+                <li><a href="{% url 'ai_select' %}"><i class="fas fa-plus"></i><span>Create a Quiz</span></a></li>
                 <!-- <li><a href="#" onclick="joinQuiz()"><i class="fas fa-key"></i><span>Join Quiz </span></a></li> -->
-                <li><a href="#"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                <!-- <li><a href="#"><i class="fas fa-user"></i><span>Profile</span></a></li> -->
                 <li><a href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a></li>
             </ul>
         </aside>
